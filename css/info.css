@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 400;
+    
+}
+
+.main{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 40px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+   font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+button {
+  padding: 0.9rem;
+  border-radius: 10px;
+ background-color:#13aa13;
+  border: none;
+  color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+button:hover{
+  background-color: #006000;
+}
+
+header span{
+  position: absolute;
+  margin-left: 71px;
+}
+
+
+button:hover{
+  cursor: pointer;
+
+}
+
+
+
+li{
+    display: inline;   
+}
+
+li a{
+    padding-right: 120px;
+}
+
+li a:hover{
+    text-decoration: underline 3px #006000;
+}
+
+.btn{
+  width: 100px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom:20px;
+    margin-left: 30px;
+}
+
+
+.sale{
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+
+.sale button{
+  background-color:#fff;
+  color: rgb(12, 77, 73);
+  border:0.8px solid rgb(12, 77, 73);
+  padding: 0.5px;
+  width: 160px;
+  font-size: 14px;
+  height: 30px;
+}
+
+.sale button:hover{
+  color: #fff;
+  background-color:rgb(12, 77, 73) ;
+}
+
+
+.image{
+  margin-bottom:120px;
+}
+
+
+.address{
+  display: block;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+.address h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+address{
+  font-size: 28px;
+}
+
+
+.description{
+  display: block;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+.description h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.description p{
+  font-size: 28px;
+}
+
+.landmarks{
+  display: block;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+
+.landmarks h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+.landmarks p{
+  font-size: 28px;
+}
+
+
+.tour{
+  display: block;
+  margin-bottom: 120px;
+  margin-left: 30px;
+}
+
+
+.tour h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.tour p{
+  font-size: 28px;
+}
+
+input{
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    border-color: #000;
+    margin-bottom: 30px;
+    font-size: 20px;
+ 
+  }
+
+
+  #message{
+    height: 150px;
+  }
+
+  .send{
+    height: 65px;
+    width: 144px;
+    font-size: 20px;
+
+  }
+
+
+  .form{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+ 
+  form{
+    margin-left: 50px;
+  }
+
+  form p{
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .submit{
+    display: grid;
+    width: 150px;
+  }
+
+
+  .map{
+    margin-right: 50px;
+    height: 675px;
+    margin-bottom: 200px;
+  }
+
+
+
+
+ /* *********** FOOTER ************** */
+ footer{
+    background-color: #063306;
+    color:#fff;
+    height: 600px;
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    font-weight: 400;
+  
+  }
+
+  
+  footer a{
+    color: #fff;
+
+  }
+
+
+  
+  footer li a{
+    display: inline-block;
+    line-height: 28px;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+
+
+  footer li span a{
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  footer li span a:hover{
+    text-decoration: none;
+  }
+
+
+.foot-logo{
+  margin-top: 45px;
+  margin-left: 65px;
+  height: 50px;
+}
+
+.estate span {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 56px;
+}
+
+.socials{
+  margin-left: 80px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.icon-fb{
+  width: 10px;
+}
+
+.icon-fb:hover{
+  filter: invert(21%) sepia(47%) saturate(3250%) hue-rotate(100deg) brightness(95%) contrast(108%);
+}
+
+.icon{
+  width: 20px;
+}
+
+.icon:hover{
+  filter: invert(21%) sepia(47%) saturate(3250%) hue-rotate(100deg) brightness(95%) contrast(108%);
+}
+
+hr {
+  display: inline;
+  width: 503%;
+  height: 1px;
+  color: #fff;
+  margin-left: 101px;
+  margin-top: -50px;
+}
+
+
+.term-copy {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -126px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.term-copy a{
+  color: #006000;
+  text-decoration: underline;
+}
+
+.term{
+  margin-left: 100px;
+}
+
+.term a:hover{
+  color: #fff;
+}
+
+.copy{
+  margin-right: 124px;
+}
